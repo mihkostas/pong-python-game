@@ -1,0 +1,4 @@
+controls:
+ spress SPACE to start
+player 1 : UP key,DOWN key
+player 2 : W,S
