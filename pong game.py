@@ -32,7 +32,6 @@ def bal(x,y):
 x = (w*0.45)
 y = (h*0.3) 
 fl = True
-#print x,y
 print "pehtis 1 (",pl,":",pl2,") pehtis 2"
 while fl == True:
    for ev in pygame.event.get():
@@ -75,26 +74,18 @@ while fl == True:
         xs = -3
         pl +=1
         print "pehtis 1 (",pl,":",pl2,") pehtis 2"
-# otan htipay sta tables
    if  x<=x1:
      if y <= (y2+83) and y >= (y2-10) :
          xs = 3
    if x>=x4:
      if y <= (y4+83) and y >= (y4-10):
          xs = -3
-       
-       
-#   print "x= ",x,"y= ",y,"y2 =  ",y2,x1
-
    x = x + xs
    y = y + ys
    dis.fill(blue)
    bal(x,y)
    ta1(x1,y2)
    ta2(x4,y4)
- #  pygame.draw.line(dis, white, [300,250], [500,250], 5)
-  # pygame.draw.line(dis, white, [500,0], [500,250], 5)
-  # pygame.draw.line(dis, white, [500,0], [250,250], 5)
    pygame.display.update()
    c.tick(70)
      
