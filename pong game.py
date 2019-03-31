@@ -74,10 +74,10 @@ while fl == True:
         xs = -3
         pl +=1
         print "pehtis 1 (",pl,":",pl2,") pehtis 2"
-   if  x<=x1:
+   if  x<=(x1+10):
      if y <= (y2+83) and y >= (y2-10) :
          xs = 3
-   if x>=x4:
+   if x>=(x4-10):
      if y <= (y4+83) and y >= (y4-10):
          xs = -3
    x = x + xs
