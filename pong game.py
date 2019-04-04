@@ -83,6 +83,7 @@ while fl == True:
    x = x + xs
    y = y + ys
    dis.fill(blue)
+   pygame.draw.line(dis, white, [350,500], [350,1], 7)
    bal(x,y)
    ta1(x1,y2)
    ta2(x4,y4)
